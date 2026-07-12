@@ -1,0 +1,26 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BvfBe4dr.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-xFLwRzNx.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/viewer.js": {
+    "file": "assets/viewer-8_w0gq7R.js",
+    "name": "viewer",
+    "src": "resources/js/viewer.js",
+    "isEntry": true,
+    "css": [
+      "assets/viewer-8KalZEDh.css"
+    ]
+  }
+}
