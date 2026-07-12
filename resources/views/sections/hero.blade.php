@@ -22,12 +22,12 @@
 
             </p>
 
-            <a href="/recorrido"
-               class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg">
+            <a href="#experiencia360"
+            class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg">
 
-                Iniciar recorrido del Instituto
+          🌍 Explorar Instituto 360°
 
-            </a>
+</a>
 
         </div>
 
