@@ -1,6 +1,6 @@
-<section class="max-w-7xl mx-auto px-6 pt-32 pb-16">
+<section class="max-w-7xl mx-auto px-6 pt-48 pb-16">
 
-    <div class="flex flex-col-reverse lg:flex-row items-center gap-12">
+    <div class="flex flex-col-reverse lg:flex-row items-start gap-12">
 
         <!-- Texto -->
         <div class="w-full lg:w-1/2 text-center lg:text-left">

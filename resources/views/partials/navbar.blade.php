@@ -10,7 +10,7 @@
                 <img src="{{ asset('images/logo.png') }}"
                      class="w-12 h-12 object-contain">
 
-                <div class="hidden sm:block">
+                <div class="block">
 
                     <h1 class="text-lg font-bold text-blue-900">
                         CAP. FAP. José Abelardo Quiñones
@@ -27,10 +27,41 @@
             <!-- Menú PC -->
             <div class="hidden md:flex items-center gap-8">
 
-                <a href="/">Inicio</a>
-                <a href="#mapa">Ambientes</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#contacto">Contáctanos</a>
+                <a href="/" class="hover:text-blue-600">
+                    Inicio
+                </a>
+
+                <details class="relative">
+
+                    <summary class="cursor-pointer list-none hover:text-blue-600">
+                        Ambientes
+                    </summary>
+
+                    <div class="absolute right-0 mt-2 w-52 bg-white border border-gray-200 rounded-xl shadow-lg z-50">
+
+                        <a href="/ambientes/lab1" class="block px-4 py-2 hover:bg-gray-100">
+                            🧪 Laboratorio 1
+                        </a>
+
+                        <a href="/ambientes/lab2" class="block px-4 py-2 hover:bg-gray-100">
+                            🧪 Laboratorio 2
+                        </a>
+
+                        <a href="/ambientes/enfermeria" class="block px-4 py-2 hover:bg-gray-100">
+                            🏥 Enfermería
+                        </a>
+
+                        <a href="/ambientes/biblioteca" class="block px-4 py-2 hover:bg-gray-100">
+                            📚 Biblioteca
+                        </a>
+
+                        <a href="/ambientes/fablab" class="block px-4 py-2 hover:bg-gray-100">
+                            🏭 FabLab
+                        </a>
+
+                    </div>
+
+                </details>
 
             </div>
 
@@ -63,17 +94,37 @@
             Inicio
         </a>
 
-        <a href="#mapa" class="block px-6 py-4 hover:bg-gray-100">
-            Ambientes
-        </a>
+        <details>
 
-        <a href="#nosotros" class="block px-6 py-4 hover:bg-gray-100">
-            Nosotros
-        </a>
+            <summary class="px-6 py-4 cursor-pointer hover:bg-gray-100">
+                Ambientes
+            </summary>
 
-        <a href="#contacto" class="block px-6 py-4 hover:bg-gray-100">
-            Contáctanos
-        </a>
+            <div class="bg-gray-50">
+
+                <a href="/ambientes/lab1" class="block px-10 py-3 hover:bg-gray-100">
+                    🧪 Laboratorio 1
+                </a>
+
+                <a href="/ambientes/lab2" class="block px-10 py-3 hover:bg-gray-100">
+                    🧪 Laboratorio 2
+                </a>
+
+                <a href="/ambientes/enfermeria" class="block px-10 py-3 hover:bg-gray-100">
+                    🏥 Enfermería
+                </a>
+
+                <a href="/ambientes/biblioteca" class="block px-10 py-3 hover:bg-gray-100">
+                    📚 Biblioteca
+                </a>
+
+                <a href="/ambientes/fablab" class="block px-10 py-3 hover:bg-gray-100">
+                    🏭 FabLab
+                </a>
+
+            </div>
+
+        </details>
 
     </div>
 
