@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <div id="viewer"></div>
+<div id="viewer" data-panorama="/panoramas/{{ $panorama }}.jpg"></div>
 
 </body>
 </html>

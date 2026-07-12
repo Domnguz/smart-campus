@@ -59,6 +59,10 @@
                             🏭 FabLab
                         </a>
 
+                        <a href="/ambientes/auditorio" class="block px-4 py-2 hover:bg-gray-100">  
+                            🎤Auditorio
+                        </a>
+
                     </div>
 
                 </details>
@@ -121,8 +125,14 @@
                 <a href="/ambientes/fablab" class="block px-10 py-3 hover:bg-gray-100">
                     🏭 FabLab
                 </a>
-
-            </div>
+                
+                <a href="/ambientes/auditorio" class="block px-10 py-3 hover:bg-gray-100">
+                    🎤 Auditorio
+                </a>
+              
+            </a>
+           
+        </div>
 
         </details>
 

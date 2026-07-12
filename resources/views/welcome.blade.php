@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Inicio')
+@section('title', 'Inicio - Recorrido Virtual 360°')
 
 @section('content')
 

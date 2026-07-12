@@ -6,15 +6,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/recorrido', function () {
-    return view('viewer');
+
+/*
+|--------------------------------------------------------------------------
+| PANORAMAS
+|--------------------------------------------------------------------------
+*/
+
+
+Route::get('/recorrido/{panorama}', function ($panorama) {
+    return view('viewer', compact('panorama'));
 });
+
+
 
 /*
 |--------------------------------------------------------------------------
 | AMBIENTES
 |--------------------------------------------------------------------------
 */
+
+Route::get('/ambientes/auditorio', function () {
+    return view('ambientes.auditorio');
+});
 
 Route::get('/ambientes/lab1', function () {
     return view('ambientes.lab1');

@@ -10,9 +10,17 @@ window.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
+    // Obtener la imagen desde el atributo data-panorama
+    const panorama = container.dataset.panorama;
+
+    if (!panorama) {
+        console.error('No se especificó un panorama.');
+        return;
+    }
+
     new Viewer({
         container: container,
-        panorama: '/panoramas/tecno1.jpg',
+        panorama: panorama,
         navbar: [
             'zoom',
             'move',
