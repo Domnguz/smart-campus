@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     new Viewer({
         container: container,
-        panorama: '/panoramas/aula1.jpg',
+        panorama: '/panoramas/tecno1.jpg',
         navbar: [
             'zoom',
             'move',

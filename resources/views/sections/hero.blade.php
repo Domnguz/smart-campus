@@ -1,3 +1,7 @@
+
+
+
+
 <section class="max-w-7xl mx-auto px-6 pt-48 pb-16">
 
     <div class="flex flex-col-reverse lg:flex-row items-start gap-12">
@@ -21,7 +25,7 @@
             <a href="/recorrido"
                class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg">
 
-                Iniciar recorrido
+                Iniciar recorrido del Instituto
 
             </a>
 
@@ -48,3 +52,4 @@
     </div>
 
 </section>
+
