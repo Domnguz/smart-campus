@@ -1,4 +1,5 @@
-<nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-md z-50">
+<nav id="navbar"
+    class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-md z-50 transition-all duration-500">
 
     <div class="max-w-7xl mx-auto px-6">
 

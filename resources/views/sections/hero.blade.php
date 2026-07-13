@@ -1,55 +1,68 @@
+<section class="relative h-screen overflow-hidden">
 
+    <!-- Video de fondo -->
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover">
 
+        <source src="{{ asset('videos/instituto.mp4') }}" type="video/mp4">
 
+    </video>
 
-<section class="max-w-7xl mx-auto px-6 pt-48 pb-16">
+    <!-- Capa oscura -->
+    <div class="absolute inset-0 bg-black/55"></div>
 
-    <div class="flex flex-col-reverse lg:flex-row items-start gap-12">
+    <!-- Contenido -->
+   <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
 
-        <!-- Texto -->
-        <div class="w-full lg:w-1/2 text-center lg:text-left">
+        <h1 class="text-white text-4xl md:text-6xl font-bold leading-tight">
 
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
+            Bienvenido al recorrido virtual del <br>
 
-                Bienvenido al recorrido virtual del
-                <span class="text-blue-600">CAP. FAP. José Abelardo Quiñones</span>
+            <span class="text-blue-400">
+                CAP. FAP. José Abelardo Quiñones
+            </span>
 
-            </h1>
+        </h1>
 
-            <p class="mt-6 text-lg text-slate-600 leading-8">
+        <p class="mt-6 text-lg md:text-xl text-gray-200 max-w-3xl">
 
-                Explora nuestras instalaciones mediante fotografías panorámicas e interactúa con cada ambiente del instituto.
+            Explora nuestras instalaciones mediante fotografías panorámicas
+            e interactúa con cada ambiente del instituto.
 
-            </p>
+        </p>
 
-            <a href="#experiencia360"
-            class="inline-block mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition duration-300 shadow-lg">
+        <a href="#experiencia360"
+            class="mt-10 bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl text-lg font-semibold transition duration-300 shadow-xl">
 
-          🌍 Explorar Instituto 360°
+            🌍 Explorar Instituto 360°
 
-</a>
+        </a>
+          
+        
+<div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
 
-        </div>
+    <a href="#experiencia360">
 
-        <!-- Video -->
-        <div class="w-full lg:w-1/2 flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="w-14 h-14 text-white"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke="currentColor">
 
-            <video
-                autoplay
-                muted
-                loop
-                playsinline
-                class="w-full max-w-2xl h-72 md:h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl">
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  d="M6 9l6 6 6-6"/>
 
-                <source src="{{ asset('videos/instituto.mp4') }}" type="video/mp4">
+        </svg>
 
-                Tu navegador no soporta el video.
+    </a>
 
-            </video>
-
-        </div>
-
+</div>
     </div>
 
 </section>
-
