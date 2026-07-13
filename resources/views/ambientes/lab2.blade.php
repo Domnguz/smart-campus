@@ -13,7 +13,7 @@
         <div class="relative rounded-3xl overflow-hidden shadow-lg">
 
             <img
-                src="{{ asset('images/aulas/lab2.jpg') }}"
+                src="{{ asset('images/aulas/centrodecomputo2.jpeg') }}"
                 class="w-full aspect-[16/9] md:aspect-[21/9] object-cover"
                 alt="Laboratorio 2">
 

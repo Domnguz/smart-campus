@@ -102,7 +102,7 @@
 
         {{-- CTA --}}
         <div class="text-center mt-14">
-        <a href="{{ url('/recorrido/enfermeria') }}"
+        <a href="{{ url('/recorrido/enfermeria.jpeg') }}"
             class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition">
             🌐 Ingresar al recorrido virtual
         </a>

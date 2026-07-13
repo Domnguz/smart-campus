@@ -13,7 +13,7 @@
         <div class="relative rounded-3xl overflow-hidden shadow-lg">
 
             <img
-                src="{{ asset('images/aulas/fablab.png') }}"
+                src="{{ asset('images/aulas/fablab.jpeg') }}"
                 class="w-full aspect-[16/9] md:aspect-[21/9] object-cover"
                 alt="FabLab">
 
@@ -102,7 +102,7 @@
 
         {{-- CTA --}}
         <div class="text-center mt-14">
-            <a href="{{ url('/recorrido') }}"
+            <a href="{{ url('images/aulas/fablab.jpg') }}"
                 class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition">
                 🌐 Ingresar al recorrido virtual
             </a>

@@ -13,7 +13,7 @@
         <div class="relative rounded-3xl overflow-hidden shadow-lg">
 
             <img
-                src="{{ asset('images/aulas/lab1.jpg') }}"
+                src="{{ asset('images/aulas/centrodecomputo.jpeg') }}"
                 class="w-full aspect-[16/9] md:aspect-[21/9] object-cover"
                 alt="Laboratorio 1">
 
@@ -24,7 +24,7 @@
                     LAB1
                 </span>
                 <h1 class="text-3xl md:text-5xl font-bold text-white mt-3">
-                    Laboratorio 1
+                    Centro de Computo 1
                 </h1>
                 <p class="text-slate-200 mt-1 text-sm md:text-base">
                     Instituto CAP. FAP. José Abelardo Quiñones
@@ -64,7 +64,7 @@
             <div class="md:col-span-3">
                 <h2 class="text-xl font-bold text-slate-800 mb-3">Descripción</h2>
                 <p class="text-slate-600 leading-8">
-                    El Laboratorio 1 (LAB1) es un ambiente de cómputo del Instituto
+                    El Centro de Computo 1 (LAB1) es un ambiente de cómputo del Instituto
                     de Educación Superior Tecnológico Público CAP. FAP. José Abelardo
                     Quiñones, equipado con computadoras de escritorio destinadas a la
                     práctica de programación y desarrollo de software. Aquí los
